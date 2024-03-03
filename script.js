@@ -71,7 +71,6 @@ function createTask(){
         closeBtn.style.justifyContent='end'
         task.appendChild(closeBtn);
         closeBtn.onclick = (e)=> {
-                showIt(e);
                 task.remove();
         };
 
